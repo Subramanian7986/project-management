@@ -1,0 +1,140 @@
+/* General Styling */
+body {
+  background-color: #f4f7fc;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+  color: #34495e;
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Form Styling */
+.form-group input,
+.form-group select,
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group button {
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-group button:hover {
+  background-color: #2980b9;
+}
+
+/* Filter Section */
+.form-group label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  display: block;
+  color: #2c3e50;
+}
+
+/* Task Card */
+.card {
+  border: none;
+  border-radius: 8px;
+  background-color: #ecf0f1;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s;
+  padding: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #7f8c8d;
+}
+
+.card p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Status Dropdown */
+.card select {
+  background-color: #ffffff;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  padding: 8px;
+  width: 100%;
+  margin-top: 10px;
+  color: #34495e;
+}
+
+/* Delete Button */
+.btn-danger {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-danger:hover {
+  background-color: #c0392b;
+}
+
+/* Additional Styles */
+.container {
+  padding: 20px;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .App {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
