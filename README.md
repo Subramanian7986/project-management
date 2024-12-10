@@ -38,7 +38,7 @@ A simple yet effective project management tool to keep track of tasks! Easily ad
 
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/your-repo-url.git  
+   git clone https://github.com/Subramanian7986/project-management.git
    ```  
 
 2. Navigate to the project directory:  
